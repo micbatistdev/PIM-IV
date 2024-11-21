@@ -154,3 +154,4 @@ C:\Users\micha\OneDrive\Área de Trabalho\.Dev\UrbanGreenProject\AppDesktop\Urba
 C:\Users\micha\OneDrive\Área de Trabalho\.Dev\UrbanGreenProject\AppDesktop\Urban_Green.App\Tela_Login\obj\Debug\net8.0-windows10.0.26100.0\UrbanGreenProject.AjudaForm.resources
 C:\Users\micha\OneDrive\Área de Trabalho\.Dev\UrbanGreenProject\AppDesktop\Urban_Green.App\Tela_Login\obj\Debug\net8.0-windows10.0.26100.0\UrbanGreenProject.ConfiguracoesForm.resources
 C:\Users\micha\OneDrive\Área de Trabalho\.Dev\UrbanGreenProject\AppDesktop\Urban_Green.App\Tela_Login\obj\Debug\net8.0-windows10.0.26100.0\UrbanGreenProject.ContatoForm.resources
+C:\Users\micha\OneDrive\Área de Trabalho\.Dev\UrbanGreenProject\AppDesktop\Urban_Green.App\Tela_Login\obj\Debug\net8.0-windows10.0.26100.0\UrbanGreenProject.sourcelink.json

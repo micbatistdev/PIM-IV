@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UrbanGreenProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1fcb58d3bb9160863e597eaf9fcfc2ce8cd99de8")]
 [assembly: System.Reflection.AssemblyProductAttribute("UrbanGreenProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UrbanGreenProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

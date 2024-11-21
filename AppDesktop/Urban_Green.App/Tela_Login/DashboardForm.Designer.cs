@@ -654,13 +654,14 @@
             // 
             // Containner
             // 
+            Containner.AutoScroll = true;
             Containner.BackColor = SystemColors.Control;
             Containner.Controls.Add(panel5);
             Containner.Controls.Add(panel27);
             Containner.Controls.Add(panel4);
             Containner.Location = new Point(189, 73);
             Containner.Name = "Containner";
-            Containner.Size = new Size(1083, 695);
+            Containner.Size = new Size(1080, 695);
             Containner.TabIndex = 11;
             Containner.Paint += panel3_Paint;
             // 
@@ -668,9 +669,9 @@
             // 
             panel5.BackColor = Color.White;
             panel5.Controls.Add(label41);
-            panel5.Location = new Point(23, 486);
+            panel5.Location = new Point(0, 463);
             panel5.Name = "panel5";
-            panel5.Size = new Size(1050, 3000);
+            panel5.Size = new Size(1063, 3000);
             panel5.TabIndex = 15;
             // 
             // label41
@@ -687,9 +688,9 @@
             // 
             panel27.BackColor = Color.White;
             panel27.Controls.Add(label29);
-            panel27.Location = new Point(23, 7);
+            panel27.Location = new Point(0, -1);
             panel27.Name = "panel27";
-            panel27.Size = new Size(1050, 78);
+            panel27.Size = new Size(1063, 78);
             panel27.TabIndex = 13;
             // 
             // label29
@@ -710,9 +711,9 @@
             panel4.Controls.Add(panel25);
             panel4.Controls.Add(panel17);
             panel4.Controls.Add(panel16);
-            panel4.Location = new Point(23, 103);
+            panel4.Location = new Point(0, 87);
             panel4.Name = "panel4";
-            panel4.Size = new Size(1050, 365);
+            panel4.Size = new Size(1063, 365);
             panel4.TabIndex = 14;
             // 
             // panel31
@@ -723,15 +724,15 @@
             panel31.Cursor = Cursors.Hand;
             panel31.Location = new Point(1019, 0);
             panel31.Name = "panel31";
-            panel31.Size = new Size(30, 20);
+            panel31.Size = new Size(21, 20);
             panel31.TabIndex = 3;
             // 
             // panel24
             // 
             panel24.Controls.Add(pictureBox2);
-            panel24.Location = new Point(2, 0);
+            panel24.Location = new Point(0, 0);
             panel24.Name = "panel24";
-            panel24.Size = new Size(39, 365);
+            panel24.Size = new Size(41, 365);
             panel24.TabIndex = 12;
             // 
             // pictureBox2
@@ -750,7 +751,7 @@
             panel25.Controls.Add(pictureBox3);
             panel25.Location = new Point(1009, 0);
             panel25.Name = "panel25";
-            panel25.Size = new Size(39, 365);
+            panel25.Size = new Size(47, 365);
             panel25.TabIndex = 13;
             // 
             // pictureBox3
