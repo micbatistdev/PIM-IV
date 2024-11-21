@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AjudaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ConfiguracoesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ContatoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CultivoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DashboardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EstoqueForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MonitoramentoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NewPasswordSuccessfullyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RecoverPasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RecoverPasswordForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RegisterForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RegisterForm3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RegisterForm4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RegisterForm5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RelatoriosForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SaudeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
