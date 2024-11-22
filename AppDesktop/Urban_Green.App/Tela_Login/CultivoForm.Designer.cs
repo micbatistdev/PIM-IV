@@ -49,8 +49,16 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            label1 = new Label();
-            pictureBox1 = new PictureBox();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             panel1 = new Panel();
             guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             pictureBox15 = new PictureBox();
@@ -68,32 +76,33 @@
             guna2Separator3 = new Guna.UI2.WinForms.Guna2Separator();
             guna2Separator2 = new Guna.UI2.WinForms.Guna2Separator();
             guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            contentPanel = new Panel();
+            label1 = new Label();
+            pictureBox2 = new PictureBox();
+            guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
+            panel27 = new Panel();
+            label29 = new Label();
+            guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            btn_NewCultivo = new Guna.UI2.WinForms.Guna2GradientButton();
+            pictureBox18 = new PictureBox();
+            pictureBox17 = new PictureBox();
+            BarraPesquisa = new Guna.UI2.WinForms.Guna2TextBox();
+            Column1 = new DataGridViewTextBoxColumn();
+            Column2 = new DataGridViewTextBoxColumn();
+            Column3 = new DataGridViewTextBoxColumn();
+            Column4 = new DataGridViewTextBoxColumn();
+            Column5 = new DataGridViewTextBoxColumn();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
             panel2.SuspendLayout();
+            contentPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).BeginInit();
+            panel27.SuspendLayout();
+            guna2GradientPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox18).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox17).BeginInit();
             SuspendLayout();
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Microsoft Sans Serif", 22F, FontStyle.Bold);
-            label1.ForeColor = Color.Green;
-            label1.Location = new Point(511, 162);
-            label1.Name = "label1";
-            label1.Size = new Size(243, 36);
-            label1.TabIndex = 7;
-            label1.Text = "Em Manutenção";
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(374, 226);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(517, 372);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 6;
-            pictureBox1.TabStop = false;
             // 
             // panel1
             // 
@@ -475,30 +484,259 @@
             guna2Separator1.Size = new Size(149, 10);
             guna2Separator1.TabIndex = 0;
             // 
+            // contentPanel
+            // 
+            contentPanel.AutoScroll = true;
+            contentPanel.BackColor = SystemColors.Control;
+            contentPanel.Controls.Add(label1);
+            contentPanel.Controls.Add(pictureBox2);
+            contentPanel.Controls.Add(guna2DataGridView1);
+            contentPanel.Controls.Add(panel27);
+            contentPanel.Location = new Point(190, 56);
+            contentPanel.Name = "contentPanel";
+            contentPanel.Size = new Size(1080, 709);
+            contentPanel.TabIndex = 49;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            label1.Location = new Point(16, 104);
+            label1.Name = "label1";
+            label1.Size = new Size(157, 21);
+            label1.TabIndex = 14;
+            label1.Text = "Tabela de Cultivos :";
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Cursor = Cursors.Hand;
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(-1, 157);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(15, 15);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 15;
+            pictureBox2.TabStop = false;
+            // 
+            // guna2DataGridView1
+            // 
+            guna2DataGridView1.AllowUserToResizeRows = false;
+            dataGridViewCellStyle1.BackColor = Color.White;
+            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle1.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridViewCellStyle1.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = Color.FromArgb(136, 203, 194);
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle2.ForeColor = Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(136, 203, 194);
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            guna2DataGridView1.ColumnHeadersHeight = 17;
+            guna2DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            guna2DataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4, Column5 });
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = Color.White;
+            dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle3.ForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
+            guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
+            guna2DataGridView1.GridColor = Color.FromArgb(231, 229, 255);
+            guna2DataGridView1.Location = new Point(16, 137);
+            guna2DataGridView1.Name = "guna2DataGridView1";
+            guna2DataGridView1.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = Color.White;
+            dataGridViewCellStyle4.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle4.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = Color.White;
+            dataGridViewCellStyle4.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
+            guna2DataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            guna2DataGridView1.RowHeadersVisible = false;
+            guna2DataGridView1.Size = new Size(1042, 707);
+            guna2DataGridView1.TabIndex = 14;
+            guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
+            guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
+            guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
+            guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
+            guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
+            guna2DataGridView1.ThemeStyle.BackColor = Color.White;
+            guna2DataGridView1.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
+            guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
+            guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
+            guna2DataGridView1.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F);
+            guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = Color.White;
+            guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 17;
+            guna2DataGridView1.ThemeStyle.ReadOnly = false;
+            guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = Color.White;
+            guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            guna2DataGridView1.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
+            guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
+            guna2DataGridView1.ThemeStyle.RowsStyle.Height = 25;
+            guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            // 
+            // panel27
+            // 
+            panel27.BackColor = Color.White;
+            panel27.Controls.Add(label29);
+            panel27.Location = new Point(0, -1);
+            panel27.Name = "panel27";
+            panel27.Size = new Size(1063, 78);
+            panel27.TabIndex = 13;
+            // 
+            // label29
+            // 
+            label29.AutoSize = true;
+            label29.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
+            label29.Location = new Point(360, 24);
+            label29.Name = "label29";
+            label29.Size = new Size(343, 30);
+            label29.TabIndex = 13;
+            label29.Text = "GERENCIAMENTO DE CULTIVOS";
+            // 
+            // guna2GradientPanel1
+            // 
+            guna2GradientPanel1.BackColor = Color.Transparent;
+            guna2GradientPanel1.Controls.Add(btn_NewCultivo);
+            guna2GradientPanel1.Controls.Add(pictureBox18);
+            guna2GradientPanel1.Controls.Add(pictureBox17);
+            guna2GradientPanel1.Controls.Add(BarraPesquisa);
+            customizableEdges25.BottomRight = false;
+            customizableEdges25.TopLeft = false;
+            guna2GradientPanel1.CustomizableEdges = customizableEdges25;
+            guna2GradientPanel1.FillColor2 = Color.Transparent;
+            guna2GradientPanel1.Location = new Point(190, 2);
+            guna2GradientPanel1.Name = "guna2GradientPanel1";
+            guna2GradientPanel1.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            guna2GradientPanel1.Size = new Size(1082, 51);
+            guna2GradientPanel1.TabIndex = 48;
+            // 
+            // btn_NewCultivo
+            // 
+            btn_NewCultivo.BorderRadius = 4;
+            btn_NewCultivo.CustomizableEdges = customizableEdges21;
+            btn_NewCultivo.DisabledState.BorderColor = Color.DarkGray;
+            btn_NewCultivo.DisabledState.CustomBorderColor = Color.DarkGray;
+            btn_NewCultivo.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btn_NewCultivo.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
+            btn_NewCultivo.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btn_NewCultivo.FillColor = Color.FromArgb(37, 213, 116);
+            btn_NewCultivo.FillColor2 = Color.FromArgb(50, 159, 99);
+            btn_NewCultivo.Font = new Font("Segoe UI", 7F, FontStyle.Bold);
+            btn_NewCultivo.ForeColor = Color.White;
+            btn_NewCultivo.Location = new Point(922, 8);
+            btn_NewCultivo.Name = "btn_NewCultivo";
+            btn_NewCultivo.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            btn_NewCultivo.Size = new Size(147, 34);
+            btn_NewCultivo.TabIndex = 12;
+            btn_NewCultivo.Text = "+ NOVO CULTIVO";
+            // 
+            // pictureBox18
+            // 
+            pictureBox18.Cursor = Cursors.Hand;
+            pictureBox18.Image = (Image)resources.GetObject("pictureBox18.Image");
+            pictureBox18.Location = new Point(850, 20);
+            pictureBox18.Name = "pictureBox18";
+            pictureBox18.Size = new Size(20, 20);
+            pictureBox18.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox18.TabIndex = 9;
+            pictureBox18.TabStop = false;
+            // 
+            // pictureBox17
+            // 
+            pictureBox17.Cursor = Cursors.Hand;
+            pictureBox17.Image = (Image)resources.GetObject("pictureBox17.Image");
+            pictureBox17.Location = new Point(886, 20);
+            pictureBox17.Name = "pictureBox17";
+            pictureBox17.Size = new Size(20, 20);
+            pictureBox17.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox17.TabIndex = 8;
+            pictureBox17.TabStop = false;
+            // 
+            // BarraPesquisa
+            // 
+            BarraPesquisa.BorderRadius = 4;
+            BarraPesquisa.CustomizableEdges = customizableEdges23;
+            BarraPesquisa.DefaultText = "";
+            BarraPesquisa.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            BarraPesquisa.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            BarraPesquisa.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            BarraPesquisa.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            BarraPesquisa.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            BarraPesquisa.Font = new Font("Segoe UI", 9F);
+            BarraPesquisa.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            BarraPesquisa.IconRight = (Image)resources.GetObject("BarraPesquisa.IconRight");
+            BarraPesquisa.Location = new Point(16, 7);
+            BarraPesquisa.Name = "BarraPesquisa";
+            BarraPesquisa.PasswordChar = '\0';
+            BarraPesquisa.PlaceholderText = "Pesquisar Produto";
+            BarraPesquisa.SelectedText = "";
+            BarraPesquisa.ShadowDecoration.CustomizableEdges = customizableEdges24;
+            BarraPesquisa.Size = new Size(312, 36);
+            BarraPesquisa.TabIndex = 0;
+            // 
+            // Column1
+            // 
+            Column1.HeaderText = "NOME DO CULTIVO";
+            Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            Column2.HeaderText = "TIPO DE PLANTA";
+            Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            Column3.HeaderText = "DATA DE PLANTIO";
+            Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            Column4.HeaderText = "DATA ESTIMADA DE COLHEITA";
+            Column4.Name = "Column4";
+            // 
+            // Column5
+            // 
+            Column5.HeaderText = "STATUS DO CULTIVO";
+            Column5.Name = "Column5";
+            // 
             // CultivoForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1264, 761);
+            Controls.Add(contentPanel);
+            Controls.Add(guna2GradientPanel1);
             Controls.Add(panel1);
             Controls.Add(panel2);
-            Controls.Add(label1);
-            Controls.Add(pictureBox1);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "CultivoForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cultivo";
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
             panel2.ResumeLayout(false);
+            contentPanel.ResumeLayout(false);
+            contentPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).EndInit();
+            panel27.ResumeLayout(false);
+            panel27.PerformLayout();
+            guna2GradientPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox18).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox17).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
-        private Label label1;
-        private PictureBox pictureBox1;
         private Panel panel1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private PictureBox pictureBox15;
@@ -516,5 +754,21 @@
         private Guna.UI2.WinForms.Guna2Separator guna2Separator3;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator2;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator1;
+        private Panel contentPanel;
+        private PictureBox pictureBox2;
+        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
+        private Panel panel27;
+        private Label label29;
+        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
+        private Guna.UI2.WinForms.Guna2GradientButton btn_NewCultivo;
+        private PictureBox pictureBox18;
+        private PictureBox pictureBox17;
+        private Guna.UI2.WinForms.Guna2TextBox BarraPesquisa;
+        private Label label1;
+        private DataGridViewTextBoxColumn Column1;
+        private DataGridViewTextBoxColumn Column2;
+        private DataGridViewTextBoxColumn Column3;
+        private DataGridViewTextBoxColumn Column4;
+        private DataGridViewTextBoxColumn Column5;
     }
 }
