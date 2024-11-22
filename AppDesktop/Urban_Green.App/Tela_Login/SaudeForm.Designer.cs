@@ -598,7 +598,7 @@
             panel4.BackColor = Color.White;
             panel4.Controls.Add(pictureBox1);
             panel4.Controls.Add(label29);
-            panel4.Location = new Point(7, 12);
+            panel4.Location = new Point(7, -5);
             panel4.Name = "panel4";
             panel4.Size = new Size(1050, 78);
             panel4.TabIndex = 43;

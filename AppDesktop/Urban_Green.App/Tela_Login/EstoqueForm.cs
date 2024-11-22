@@ -87,5 +87,10 @@ namespace UrbanGreenProject
             ajudaForm.Show();
             this.Hide();
         }
+
+        private void contentPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
