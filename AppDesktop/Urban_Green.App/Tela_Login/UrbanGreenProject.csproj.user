@@ -10,7 +10,7 @@
     <Compile Update="ConfiguracoesForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="ContatoForm.cs">
+    <Compile Update="ContaForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="CultivoForm.cs">

@@ -28,32 +28,51 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RelatoriosForm));
-            guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             label1 = new Label();
             pictureBox1 = new PictureBox();
+            panel1 = new Panel();
+            guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            pictureBox15 = new PictureBox();
+            panel2 = new Panel();
+            guna2GradientButton11 = new Guna.UI2.WinForms.Guna2GradientButton();
+            guna2GradientButton10 = new Guna.UI2.WinForms.Guna2GradientButton();
+            guna2GradientButton9 = new Guna.UI2.WinForms.Guna2GradientButton();
+            guna2GradientButton8 = new Guna.UI2.WinForms.Guna2GradientButton();
+            guna2GradientButton7 = new Guna.UI2.WinForms.Guna2GradientButton();
+            guna2GradientButton6 = new Guna.UI2.WinForms.Guna2GradientButton();
+            guna2GradientButton5 = new Guna.UI2.WinForms.Guna2GradientButton();
+            guna2GradientButton4 = new Guna.UI2.WinForms.Guna2GradientButton();
+            guna2GradientButton3 = new Guna.UI2.WinForms.Guna2GradientButton();
+            guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
+            guna2Separator3 = new Guna.UI2.WinForms.Guna2Separator();
+            guna2Separator2 = new Guna.UI2.WinForms.Guna2Separator();
+            guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
+            panel2.SuspendLayout();
             SuspendLayout();
-            // 
-            // guna2CircleButton1
-            // 
-            guna2CircleButton1.Cursor = Cursors.Hand;
-            guna2CircleButton1.DisabledState.BorderColor = Color.DarkGray;
-            guna2CircleButton1.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2CircleButton1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2CircleButton1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2CircleButton1.FillColor = Color.FromArgb(0, 192, 0);
-            guna2CircleButton1.Font = new Font("SimSun-ExtG", 22F, FontStyle.Bold);
-            guna2CircleButton1.ForeColor = Color.White;
-            guna2CircleButton1.Location = new Point(12, 12);
-            guna2CircleButton1.Name = "guna2CircleButton1";
-            guna2CircleButton1.ShadowDecoration.CustomizableEdges = customizableEdges1;
-            guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            guna2CircleButton1.Size = new Size(40, 40);
-            guna2CircleButton1.TabIndex = 11;
-            guna2CircleButton1.Text = "<";
-            guna2CircleButton1.Click += guna2CircleButton1_Click;
             // 
             // label1
             // 
@@ -76,12 +95,394 @@
             pictureBox1.TabIndex = 9;
             pictureBox1.TabStop = false;
             // 
+            // panel1
+            // 
+            panel1.BackColor = Color.White;
+            panel1.Controls.Add(guna2HtmlLabel1);
+            panel1.Controls.Add(pictureBox15);
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(183, 69);
+            panel1.TabIndex = 43;
+            // 
+            // guna2HtmlLabel1
+            // 
+            guna2HtmlLabel1.AutoSize = false;
+            guna2HtmlLabel1.BackColor = Color.Transparent;
+            guna2HtmlLabel1.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            guna2HtmlLabel1.Location = new Point(80, 9);
+            guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            guna2HtmlLabel1.Size = new Size(80, 50);
+            guna2HtmlLabel1.TabIndex = 6;
+            guna2HtmlLabel1.Text = "Urban Green";
+            // 
+            // pictureBox15
+            // 
+            pictureBox15.Image = (Image)resources.GetObject("pictureBox15.Image");
+            pictureBox15.Location = new Point(23, 9);
+            pictureBox15.Name = "pictureBox15";
+            pictureBox15.Size = new Size(50, 50);
+            pictureBox15.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox15.TabIndex = 6;
+            pictureBox15.TabStop = false;
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.White;
+            panel2.Controls.Add(guna2GradientButton11);
+            panel2.Controls.Add(guna2GradientButton10);
+            panel2.Controls.Add(guna2GradientButton9);
+            panel2.Controls.Add(guna2GradientButton8);
+            panel2.Controls.Add(guna2GradientButton7);
+            panel2.Controls.Add(guna2GradientButton6);
+            panel2.Controls.Add(guna2GradientButton5);
+            panel2.Controls.Add(guna2GradientButton4);
+            panel2.Controls.Add(guna2GradientButton3);
+            panel2.Controls.Add(guna2GradientButton1);
+            panel2.Controls.Add(guna2Separator3);
+            panel2.Controls.Add(guna2Separator2);
+            panel2.Controls.Add(guna2Separator1);
+            panel2.Location = new Point(0, 60);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(183, 703);
+            panel2.TabIndex = 42;
+            // 
+            // guna2GradientButton11
+            // 
+            guna2GradientButton11.BackColor = Color.Transparent;
+            guna2GradientButton11.BorderRadius = 4;
+            guna2GradientButton11.CheckedState.FillColor = Color.FromArgb(38, 209, 114);
+            guna2GradientButton11.CheckedState.FillColor2 = Color.FromArgb(51, 160, 99);
+            guna2GradientButton11.CheckedState.ForeColor = Color.White;
+            guna2GradientButton11.CheckedState.Image = (Image)resources.GetObject("resource.Image");
+            guna2GradientButton11.Cursor = Cursors.Hand;
+            guna2GradientButton11.CustomizableEdges = customizableEdges1;
+            guna2GradientButton11.DisabledState.BorderColor = Color.DarkGray;
+            guna2GradientButton11.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2GradientButton11.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2GradientButton11.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
+            guna2GradientButton11.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2GradientButton11.FillColor = Color.Transparent;
+            guna2GradientButton11.FillColor2 = Color.Transparent;
+            guna2GradientButton11.Font = new Font("Sans Serif Collection", 7F, FontStyle.Bold);
+            guna2GradientButton11.ForeColor = Color.Gray;
+            guna2GradientButton11.Image = (Image)resources.GetObject("guna2GradientButton11.Image");
+            guna2GradientButton11.ImageAlign = HorizontalAlignment.Left;
+            guna2GradientButton11.Location = new Point(12, 473);
+            guna2GradientButton11.Name = "guna2GradientButton11";
+            guna2GradientButton11.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            guna2GradientButton11.Size = new Size(159, 35);
+            guna2GradientButton11.TabIndex = 22;
+            guna2GradientButton11.Text = "Ajuda";
+            guna2GradientButton11.TextAlign = HorizontalAlignment.Left;
+            guna2GradientButton11.UseTransparentBackground = true;
+            guna2GradientButton11.Click += guna2GradientButton11_Click;
+            // 
+            // guna2GradientButton10
+            // 
+            guna2GradientButton10.BackColor = Color.Transparent;
+            guna2GradientButton10.BorderRadius = 4;
+            guna2GradientButton10.CheckedState.FillColor = Color.FromArgb(38, 209, 114);
+            guna2GradientButton10.CheckedState.FillColor2 = Color.FromArgb(51, 160, 99);
+            guna2GradientButton10.CheckedState.ForeColor = Color.White;
+            guna2GradientButton10.CheckedState.Image = (Image)resources.GetObject("resource.Image1");
+            guna2GradientButton10.Cursor = Cursors.Hand;
+            guna2GradientButton10.CustomizableEdges = customizableEdges3;
+            guna2GradientButton10.DisabledState.BorderColor = Color.DarkGray;
+            guna2GradientButton10.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2GradientButton10.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2GradientButton10.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
+            guna2GradientButton10.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2GradientButton10.FillColor = Color.Transparent;
+            guna2GradientButton10.FillColor2 = Color.Transparent;
+            guna2GradientButton10.Font = new Font("Sans Serif Collection", 7F, FontStyle.Bold);
+            guna2GradientButton10.ForeColor = Color.Gray;
+            guna2GradientButton10.Image = (Image)resources.GetObject("guna2GradientButton10.Image");
+            guna2GradientButton10.ImageAlign = HorizontalAlignment.Left;
+            guna2GradientButton10.Location = new Point(12, 432);
+            guna2GradientButton10.Name = "guna2GradientButton10";
+            guna2GradientButton10.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            guna2GradientButton10.Size = new Size(159, 35);
+            guna2GradientButton10.TabIndex = 21;
+            guna2GradientButton10.Text = "Sair";
+            guna2GradientButton10.TextAlign = HorizontalAlignment.Left;
+            guna2GradientButton10.UseTransparentBackground = true;
+            guna2GradientButton10.Click += guna2GradientButton10_Click;
+            // 
+            // guna2GradientButton9
+            // 
+            guna2GradientButton9.BackColor = Color.Transparent;
+            guna2GradientButton9.BorderRadius = 4;
+            guna2GradientButton9.CheckedState.FillColor = Color.FromArgb(38, 209, 114);
+            guna2GradientButton9.CheckedState.FillColor2 = Color.FromArgb(51, 160, 99);
+            guna2GradientButton9.CheckedState.ForeColor = Color.White;
+            guna2GradientButton9.CheckedState.Image = (Image)resources.GetObject("resource.Image2");
+            guna2GradientButton9.Cursor = Cursors.Hand;
+            guna2GradientButton9.CustomizableEdges = customizableEdges5;
+            guna2GradientButton9.DisabledState.BorderColor = Color.DarkGray;
+            guna2GradientButton9.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2GradientButton9.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2GradientButton9.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
+            guna2GradientButton9.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2GradientButton9.FillColor = Color.Transparent;
+            guna2GradientButton9.FillColor2 = Color.Transparent;
+            guna2GradientButton9.Font = new Font("Sans Serif Collection", 7F, FontStyle.Bold);
+            guna2GradientButton9.ForeColor = Color.Gray;
+            guna2GradientButton9.Image = (Image)resources.GetObject("guna2GradientButton9.Image");
+            guna2GradientButton9.ImageAlign = HorizontalAlignment.Left;
+            guna2GradientButton9.Location = new Point(12, 355);
+            guna2GradientButton9.Name = "guna2GradientButton9";
+            guna2GradientButton9.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            guna2GradientButton9.Size = new Size(159, 35);
+            guna2GradientButton9.TabIndex = 20;
+            guna2GradientButton9.Text = "Configurações";
+            guna2GradientButton9.TextAlign = HorizontalAlignment.Left;
+            guna2GradientButton9.UseTransparentBackground = true;
+            guna2GradientButton9.Click += guna2GradientButton9_Click;
+            // 
+            // guna2GradientButton8
+            // 
+            guna2GradientButton8.BackColor = Color.Transparent;
+            guna2GradientButton8.BorderRadius = 4;
+            guna2GradientButton8.CheckedState.FillColor = Color.FromArgb(38, 209, 114);
+            guna2GradientButton8.CheckedState.FillColor2 = Color.FromArgb(51, 160, 99);
+            guna2GradientButton8.CheckedState.ForeColor = Color.White;
+            guna2GradientButton8.CheckedState.Image = (Image)resources.GetObject("resource.Image3");
+            guna2GradientButton8.Cursor = Cursors.Hand;
+            guna2GradientButton8.CustomizableEdges = customizableEdges7;
+            guna2GradientButton8.DisabledState.BorderColor = Color.DarkGray;
+            guna2GradientButton8.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2GradientButton8.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2GradientButton8.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
+            guna2GradientButton8.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2GradientButton8.FillColor = Color.Transparent;
+            guna2GradientButton8.FillColor2 = Color.Transparent;
+            guna2GradientButton8.Font = new Font("Sans Serif Collection", 7F, FontStyle.Bold);
+            guna2GradientButton8.ForeColor = Color.Gray;
+            guna2GradientButton8.Image = (Image)resources.GetObject("guna2GradientButton8.Image");
+            guna2GradientButton8.ImageAlign = HorizontalAlignment.Left;
+            guna2GradientButton8.Location = new Point(12, 314);
+            guna2GradientButton8.Name = "guna2GradientButton8";
+            guna2GradientButton8.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            guna2GradientButton8.Size = new Size(159, 35);
+            guna2GradientButton8.TabIndex = 19;
+            guna2GradientButton8.Text = "Conta";
+            guna2GradientButton8.TextAlign = HorizontalAlignment.Left;
+            guna2GradientButton8.UseTransparentBackground = true;
+            guna2GradientButton8.Click += guna2GradientButton8_Click;
+            // 
+            // guna2GradientButton7
+            // 
+            guna2GradientButton7.BackColor = Color.Transparent;
+            guna2GradientButton7.BorderRadius = 4;
+            guna2GradientButton7.Checked = true;
+            guna2GradientButton7.CheckedState.FillColor = Color.FromArgb(38, 209, 114);
+            guna2GradientButton7.CheckedState.FillColor2 = Color.FromArgb(51, 160, 99);
+            guna2GradientButton7.CheckedState.ForeColor = Color.White;
+            guna2GradientButton7.CheckedState.Image = (Image)resources.GetObject("resource.Image4");
+            guna2GradientButton7.Cursor = Cursors.Hand;
+            guna2GradientButton7.CustomizableEdges = customizableEdges9;
+            guna2GradientButton7.DisabledState.BorderColor = Color.DarkGray;
+            guna2GradientButton7.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2GradientButton7.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2GradientButton7.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
+            guna2GradientButton7.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2GradientButton7.FillColor = Color.Transparent;
+            guna2GradientButton7.FillColor2 = Color.Transparent;
+            guna2GradientButton7.Font = new Font("Sans Serif Collection", 7F, FontStyle.Bold);
+            guna2GradientButton7.ForeColor = Color.Gray;
+            guna2GradientButton7.Image = (Image)resources.GetObject("guna2GradientButton7.Image");
+            guna2GradientButton7.ImageAlign = HorizontalAlignment.Left;
+            guna2GradientButton7.Location = new Point(12, 236);
+            guna2GradientButton7.Name = "guna2GradientButton7";
+            guna2GradientButton7.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            guna2GradientButton7.Size = new Size(159, 35);
+            guna2GradientButton7.TabIndex = 18;
+            guna2GradientButton7.Text = "Relatórios";
+            guna2GradientButton7.TextAlign = HorizontalAlignment.Left;
+            guna2GradientButton7.UseTransparentBackground = true;
+            guna2GradientButton7.Click += guna2GradientButton7_Click;
+            // 
+            // guna2GradientButton6
+            // 
+            guna2GradientButton6.BackColor = Color.Transparent;
+            guna2GradientButton6.BorderRadius = 4;
+            guna2GradientButton6.CheckedState.FillColor = Color.FromArgb(38, 209, 114);
+            guna2GradientButton6.CheckedState.FillColor2 = Color.FromArgb(51, 160, 99);
+            guna2GradientButton6.CheckedState.ForeColor = Color.White;
+            guna2GradientButton6.CheckedState.Image = (Image)resources.GetObject("resource.Image5");
+            guna2GradientButton6.Cursor = Cursors.Hand;
+            guna2GradientButton6.CustomizableEdges = customizableEdges11;
+            guna2GradientButton6.DisabledState.BorderColor = Color.DarkGray;
+            guna2GradientButton6.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2GradientButton6.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2GradientButton6.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
+            guna2GradientButton6.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2GradientButton6.FillColor = Color.Transparent;
+            guna2GradientButton6.FillColor2 = Color.Transparent;
+            guna2GradientButton6.Font = new Font("Sans Serif Collection", 7F, FontStyle.Bold);
+            guna2GradientButton6.ForeColor = Color.Gray;
+            guna2GradientButton6.Image = (Image)resources.GetObject("guna2GradientButton6.Image");
+            guna2GradientButton6.ImageAlign = HorizontalAlignment.Left;
+            guna2GradientButton6.Location = new Point(14, 195);
+            guna2GradientButton6.Name = "guna2GradientButton6";
+            guna2GradientButton6.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            guna2GradientButton6.Size = new Size(157, 35);
+            guna2GradientButton6.TabIndex = 17;
+            guna2GradientButton6.Text = "Saúde";
+            guna2GradientButton6.TextAlign = HorizontalAlignment.Left;
+            guna2GradientButton6.UseTransparentBackground = true;
+            guna2GradientButton6.Click += guna2GradientButton6_Click;
+            // 
+            // guna2GradientButton5
+            // 
+            guna2GradientButton5.BackColor = Color.Transparent;
+            guna2GradientButton5.BorderRadius = 4;
+            guna2GradientButton5.CheckedState.FillColor = Color.FromArgb(38, 209, 114);
+            guna2GradientButton5.CheckedState.FillColor2 = Color.FromArgb(51, 160, 99);
+            guna2GradientButton5.CheckedState.ForeColor = Color.White;
+            guna2GradientButton5.CheckedState.Image = (Image)resources.GetObject("resource.Image6");
+            guna2GradientButton5.Cursor = Cursors.Hand;
+            guna2GradientButton5.CustomizableEdges = customizableEdges13;
+            guna2GradientButton5.DisabledState.BorderColor = Color.DarkGray;
+            guna2GradientButton5.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2GradientButton5.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2GradientButton5.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
+            guna2GradientButton5.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2GradientButton5.FillColor = Color.Transparent;
+            guna2GradientButton5.FillColor2 = Color.Transparent;
+            guna2GradientButton5.Font = new Font("Sans Serif Collection", 7F, FontStyle.Bold);
+            guna2GradientButton5.ForeColor = Color.Gray;
+            guna2GradientButton5.Image = (Image)resources.GetObject("guna2GradientButton5.Image");
+            guna2GradientButton5.ImageAlign = HorizontalAlignment.Left;
+            guna2GradientButton5.Location = new Point(12, 154);
+            guna2GradientButton5.Name = "guna2GradientButton5";
+            guna2GradientButton5.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            guna2GradientButton5.Size = new Size(159, 35);
+            guna2GradientButton5.TabIndex = 16;
+            guna2GradientButton5.Text = "Estoque";
+            guna2GradientButton5.TextAlign = HorizontalAlignment.Left;
+            guna2GradientButton5.UseTransparentBackground = true;
+            guna2GradientButton5.Click += guna2GradientButton5_Click;
+            // 
+            // guna2GradientButton4
+            // 
+            guna2GradientButton4.BackColor = Color.Transparent;
+            guna2GradientButton4.BorderRadius = 4;
+            guna2GradientButton4.CheckedState.FillColor = Color.FromArgb(38, 209, 114);
+            guna2GradientButton4.CheckedState.FillColor2 = Color.FromArgb(51, 160, 99);
+            guna2GradientButton4.CheckedState.ForeColor = Color.White;
+            guna2GradientButton4.CheckedState.Image = (Image)resources.GetObject("resource.Image7");
+            guna2GradientButton4.Cursor = Cursors.Hand;
+            guna2GradientButton4.CustomizableEdges = customizableEdges15;
+            guna2GradientButton4.DisabledState.BorderColor = Color.DarkGray;
+            guna2GradientButton4.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2GradientButton4.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2GradientButton4.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
+            guna2GradientButton4.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2GradientButton4.FillColor = Color.Transparent;
+            guna2GradientButton4.FillColor2 = Color.Transparent;
+            guna2GradientButton4.Font = new Font("Sans Serif Collection", 7F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            guna2GradientButton4.ForeColor = Color.Gray;
+            guna2GradientButton4.Image = (Image)resources.GetObject("guna2GradientButton4.Image");
+            guna2GradientButton4.ImageAlign = HorizontalAlignment.Left;
+            guna2GradientButton4.Location = new Point(12, 113);
+            guna2GradientButton4.Name = "guna2GradientButton4";
+            guna2GradientButton4.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            guna2GradientButton4.Size = new Size(159, 35);
+            guna2GradientButton4.TabIndex = 15;
+            guna2GradientButton4.Text = "Monitoramento";
+            guna2GradientButton4.TextAlign = HorizontalAlignment.Left;
+            guna2GradientButton4.Click += guna2GradientButton4_Click;
+            // 
+            // guna2GradientButton3
+            // 
+            guna2GradientButton3.BackColor = Color.Transparent;
+            guna2GradientButton3.BorderRadius = 4;
+            guna2GradientButton3.CheckedState.FillColor = Color.FromArgb(38, 209, 114);
+            guna2GradientButton3.CheckedState.FillColor2 = Color.FromArgb(51, 160, 99);
+            guna2GradientButton3.CheckedState.ForeColor = Color.White;
+            guna2GradientButton3.CheckedState.Image = (Image)resources.GetObject("resource.Image8");
+            guna2GradientButton3.Cursor = Cursors.Hand;
+            guna2GradientButton3.CustomizableEdges = customizableEdges17;
+            guna2GradientButton3.DisabledState.BorderColor = Color.DarkGray;
+            guna2GradientButton3.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2GradientButton3.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2GradientButton3.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
+            guna2GradientButton3.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2GradientButton3.FillColor = Color.Transparent;
+            guna2GradientButton3.FillColor2 = Color.Transparent;
+            guna2GradientButton3.Font = new Font("Sans Serif Collection", 7F, FontStyle.Bold);
+            guna2GradientButton3.ForeColor = Color.Gray;
+            guna2GradientButton3.Image = (Image)resources.GetObject("guna2GradientButton3.Image");
+            guna2GradientButton3.ImageAlign = HorizontalAlignment.Left;
+            guna2GradientButton3.Location = new Point(12, 72);
+            guna2GradientButton3.Name = "guna2GradientButton3";
+            guna2GradientButton3.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            guna2GradientButton3.Size = new Size(159, 35);
+            guna2GradientButton3.TabIndex = 14;
+            guna2GradientButton3.Text = "Cultivo";
+            guna2GradientButton3.TextAlign = HorizontalAlignment.Left;
+            guna2GradientButton3.UseTransparentBackground = true;
+            guna2GradientButton3.Click += guna2GradientButton3_Click;
+            // 
+            // guna2GradientButton1
+            // 
+            guna2GradientButton1.BorderRadius = 4;
+            guna2GradientButton1.CheckedState.FillColor = Color.FromArgb(38, 209, 114);
+            guna2GradientButton1.CheckedState.FillColor2 = Color.FromArgb(51, 160, 99);
+            guna2GradientButton1.CheckedState.ForeColor = Color.White;
+            guna2GradientButton1.CheckedState.Image = (Image)resources.GetObject("resource.Image9");
+            guna2GradientButton1.Cursor = Cursors.Hand;
+            guna2GradientButton1.CustomizableEdges = customizableEdges19;
+            guna2GradientButton1.DisabledState.BorderColor = Color.DarkGray;
+            guna2GradientButton1.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2GradientButton1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2GradientButton1.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
+            guna2GradientButton1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2GradientButton1.FillColor = Color.Transparent;
+            guna2GradientButton1.FillColor2 = Color.Transparent;
+            guna2GradientButton1.Font = new Font("Sans Serif Collection", 7F, FontStyle.Bold);
+            guna2GradientButton1.ForeColor = Color.Gray;
+            guna2GradientButton1.Image = (Image)resources.GetObject("guna2GradientButton1.Image");
+            guna2GradientButton1.ImageAlign = HorizontalAlignment.Left;
+            guna2GradientButton1.Location = new Point(12, 31);
+            guna2GradientButton1.Name = "guna2GradientButton1";
+            guna2GradientButton1.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            guna2GradientButton1.Size = new Size(159, 35);
+            guna2GradientButton1.TabIndex = 6;
+            guna2GradientButton1.Text = "Dashboard";
+            guna2GradientButton1.TextAlign = HorizontalAlignment.Left;
+            guna2GradientButton1.Click += guna2GradientButton1_Click;
+            // 
+            // guna2Separator3
+            // 
+            guna2Separator3.Location = new Point(12, 15);
+            guna2Separator3.Name = "guna2Separator3";
+            guna2Separator3.Size = new Size(149, 10);
+            guna2Separator3.TabIndex = 7;
+            // 
+            // guna2Separator2
+            // 
+            guna2Separator2.Location = new Point(12, 298);
+            guna2Separator2.Name = "guna2Separator2";
+            guna2Separator2.Size = new Size(149, 10);
+            guna2Separator2.TabIndex = 6;
+            // 
+            // guna2Separator1
+            // 
+            guna2Separator1.Location = new Point(12, 416);
+            guna2Separator1.Name = "guna2Separator1";
+            guna2Separator1.Size = new Size(149, 10);
+            guna2Separator1.TabIndex = 0;
+            // 
             // RelatoriosForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1264, 761);
-            Controls.Add(guna2CircleButton1);
+            Controls.Add(panel1);
+            Controls.Add(panel2);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
             Icon = (Icon)resources.GetObject("$this.Icon");
@@ -89,14 +490,32 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Relatorios";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
+            panel2.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
         private Label label1;
         private PictureBox pictureBox1;
+        private Panel panel1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
+        private PictureBox pictureBox15;
+        private Panel panel2;
+        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton11;
+        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton10;
+        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton9;
+        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton8;
+        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton7;
+        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton6;
+        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton5;
+        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton4;
+        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton3;
+        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
+        private Guna.UI2.WinForms.Guna2Separator guna2Separator3;
+        private Guna.UI2.WinForms.Guna2Separator guna2Separator2;
+        private Guna.UI2.WinForms.Guna2Separator guna2Separator1;
     }
 }

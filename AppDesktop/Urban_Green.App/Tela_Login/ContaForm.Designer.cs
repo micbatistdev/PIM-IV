@@ -1,6 +1,6 @@
 ﻿namespace UrbanGreenProject
 {
-    partial class ContatoForm
+    partial class ContaForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ContatoForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ContaForm));
             guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             label1 = new Label();
             pictureBox1 = new PictureBox();

@@ -78,7 +78,7 @@
             guna2Separator3 = new Guna.UI2.WinForms.Guna2Separator();
             guna2Separator2 = new Guna.UI2.WinForms.Guna2Separator();
             guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
-            Containner = new Panel();
+            contentPanel = new Panel();
             panel5 = new Panel();
             label41 = new Label();
             panel27 = new Panel();
@@ -143,7 +143,7 @@
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
             panel2.SuspendLayout();
-            Containner.SuspendLayout();
+            contentPanel.SuspendLayout();
             panel5.SuspendLayout();
             panel27.SuspendLayout();
             panel4.SuspendLayout();
@@ -630,6 +630,7 @@
             guna2GradientButton1.TabIndex = 6;
             guna2GradientButton1.Text = "Dashboard";
             guna2GradientButton1.TextAlign = HorizontalAlignment.Left;
+            guna2GradientButton1.Click += guna2GradientButton1_Click;
             // 
             // guna2Separator3
             // 
@@ -652,18 +653,18 @@
             guna2Separator1.Size = new Size(149, 10);
             guna2Separator1.TabIndex = 0;
             // 
-            // Containner
+            // contentPanel
             // 
-            Containner.AutoScroll = true;
-            Containner.BackColor = SystemColors.Control;
-            Containner.Controls.Add(panel5);
-            Containner.Controls.Add(panel27);
-            Containner.Controls.Add(panel4);
-            Containner.Location = new Point(189, 73);
-            Containner.Name = "Containner";
-            Containner.Size = new Size(1080, 695);
-            Containner.TabIndex = 11;
-            Containner.Paint += panel3_Paint;
+            contentPanel.AutoScroll = true;
+            contentPanel.BackColor = SystemColors.Control;
+            contentPanel.Controls.Add(panel5);
+            contentPanel.Controls.Add(panel27);
+            contentPanel.Controls.Add(panel4);
+            contentPanel.Location = new Point(189, 73);
+            contentPanel.Name = "contentPanel";
+            contentPanel.Size = new Size(1080, 695);
+            contentPanel.TabIndex = 11;
+            contentPanel.Paint += panel3_Paint;
             // 
             // panel5
             // 
@@ -1261,13 +1262,14 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1264, 761);
-            Controls.Add(Containner);
+            Controls.Add(contentPanel);
             Controls.Add(guna2GradientPanel1);
             Controls.Add(panel2);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "DashboardForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Dashboard";
+            Load += DashboardForm_Load_2;
             guna2GradientPanel1.ResumeLayout(false);
             guna2GradientPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox1).EndInit();
@@ -1276,7 +1278,7 @@
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
             panel2.ResumeLayout(false);
-            Containner.ResumeLayout(false);
+            contentPanel.ResumeLayout(false);
             panel5.ResumeLayout(false);
             panel5.PerformLayout();
             panel27.ResumeLayout(false);
@@ -1345,7 +1347,7 @@
         private Guna.UI2.WinForms.Guna2Separator guna2Separator2;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator1;
         private Panel panel26;
-        private Panel Containner;
+        private Panel contentPanel;
         private Panel panel5;
         private Label label41;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;

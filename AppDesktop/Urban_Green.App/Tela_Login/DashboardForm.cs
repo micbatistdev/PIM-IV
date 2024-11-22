@@ -82,7 +82,7 @@ namespace UrbanGreenProject
 
         private void guna2GradientButton8_Click(object sender, EventArgs e)
         {
-            ContatoForm contaForm = new ContatoForm();
+            ContaForm contaForm = new ContaForm();
             contaForm.Show();
             this.Hide();
         }
@@ -99,6 +99,16 @@ namespace UrbanGreenProject
             AjudaForm ajudaForm = new AjudaForm();
             ajudaForm.Show();
             this.Hide();
+        }
+
+        private void DashboardForm_Load_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2GradientButton1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

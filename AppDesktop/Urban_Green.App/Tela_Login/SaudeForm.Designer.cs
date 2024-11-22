@@ -143,8 +143,6 @@
             guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             panel3 = new Panel();
-            guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            pictureBox15 = new PictureBox();
             panel2 = new Panel();
             guna2GradientButton11 = new Guna.UI2.WinForms.Guna2GradientButton();
             guna2GradientButton10 = new Guna.UI2.WinForms.Guna2GradientButton();
@@ -159,6 +157,9 @@
             guna2Separator3 = new Guna.UI2.WinForms.Guna2Separator();
             guna2Separator2 = new Guna.UI2.WinForms.Guna2Separator();
             guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
+            panel1 = new Panel();
+            guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            pictureBox15 = new PictureBox();
             guna2GradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox18).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox17).BeginInit();
@@ -175,8 +176,9 @@
             guna2CustomGradientPanel1.SuspendLayout();
             guna2CircleProgressBar1.SuspendLayout();
             panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
             panel2.SuspendLayout();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
             SuspendLayout();
             // 
             // guna2GradientPanel1
@@ -905,32 +907,9 @@
             panel3.Size = new Size(1097, 615);
             panel3.TabIndex = 39;
             // 
-            // guna2HtmlLabel1
-            // 
-            guna2HtmlLabel1.AutoSize = false;
-            guna2HtmlLabel1.BackColor = Color.Transparent;
-            guna2HtmlLabel1.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
-            guna2HtmlLabel1.Location = new Point(79, 11);
-            guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            guna2HtmlLabel1.Size = new Size(80, 50);
-            guna2HtmlLabel1.TabIndex = 40;
-            guna2HtmlLabel1.Text = "Urban Green";
-            // 
-            // pictureBox15
-            // 
-            pictureBox15.Image = (Image)resources.GetObject("pictureBox15.Image");
-            pictureBox15.Location = new Point(23, 11);
-            pictureBox15.Name = "pictureBox15";
-            pictureBox15.Size = new Size(50, 50);
-            pictureBox15.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox15.TabIndex = 41;
-            pictureBox15.TabStop = false;
-            // 
             // panel2
             // 
             panel2.BackColor = Color.White;
-            panel2.Controls.Add(pictureBox15);
-            panel2.Controls.Add(guna2HtmlLabel1);
             panel2.Controls.Add(guna2GradientButton11);
             panel2.Controls.Add(guna2GradientButton10);
             panel2.Controls.Add(guna2GradientButton9);
@@ -944,11 +923,10 @@
             panel2.Controls.Add(guna2Separator3);
             panel2.Controls.Add(guna2Separator2);
             panel2.Controls.Add(guna2Separator1);
-            panel2.Location = new Point(-5, 0);
+            panel2.Location = new Point(0, 60);
             panel2.Name = "panel2";
-            panel2.Size = new Size(183, 1059);
-            panel2.TabIndex = 42;
-            panel2.Paint += panel2_Paint;
+            panel2.Size = new Size(183, 703);
+            panel2.TabIndex = 40;
             // 
             // guna2GradientButton11
             // 
@@ -971,7 +949,7 @@
             guna2GradientButton11.ForeColor = Color.Gray;
             guna2GradientButton11.Image = (Image)resources.GetObject("guna2GradientButton11.Image");
             guna2GradientButton11.ImageAlign = HorizontalAlignment.Left;
-            guna2GradientButton11.Location = new Point(12, 533);
+            guna2GradientButton11.Location = new Point(12, 473);
             guna2GradientButton11.Name = "guna2GradientButton11";
             guna2GradientButton11.ShadowDecoration.CustomizableEdges = customizableEdges31;
             guna2GradientButton11.Size = new Size(159, 35);
@@ -979,6 +957,7 @@
             guna2GradientButton11.Text = "Ajuda";
             guna2GradientButton11.TextAlign = HorizontalAlignment.Left;
             guna2GradientButton11.UseTransparentBackground = true;
+            guna2GradientButton11.Click += guna2GradientButton11_Click;
             // 
             // guna2GradientButton10
             // 
@@ -1001,7 +980,7 @@
             guna2GradientButton10.ForeColor = Color.Gray;
             guna2GradientButton10.Image = (Image)resources.GetObject("guna2GradientButton10.Image");
             guna2GradientButton10.ImageAlign = HorizontalAlignment.Left;
-            guna2GradientButton10.Location = new Point(12, 492);
+            guna2GradientButton10.Location = new Point(12, 432);
             guna2GradientButton10.Name = "guna2GradientButton10";
             guna2GradientButton10.ShadowDecoration.CustomizableEdges = customizableEdges33;
             guna2GradientButton10.Size = new Size(159, 35);
@@ -1009,6 +988,7 @@
             guna2GradientButton10.Text = "Sair";
             guna2GradientButton10.TextAlign = HorizontalAlignment.Left;
             guna2GradientButton10.UseTransparentBackground = true;
+            guna2GradientButton10.Click += guna2GradientButton10_Click;
             // 
             // guna2GradientButton9
             // 
@@ -1031,7 +1011,7 @@
             guna2GradientButton9.ForeColor = Color.Gray;
             guna2GradientButton9.Image = (Image)resources.GetObject("guna2GradientButton9.Image");
             guna2GradientButton9.ImageAlign = HorizontalAlignment.Left;
-            guna2GradientButton9.Location = new Point(12, 415);
+            guna2GradientButton9.Location = new Point(12, 355);
             guna2GradientButton9.Name = "guna2GradientButton9";
             guna2GradientButton9.ShadowDecoration.CustomizableEdges = customizableEdges35;
             guna2GradientButton9.Size = new Size(159, 35);
@@ -1039,6 +1019,7 @@
             guna2GradientButton9.Text = "Configurações";
             guna2GradientButton9.TextAlign = HorizontalAlignment.Left;
             guna2GradientButton9.UseTransparentBackground = true;
+            guna2GradientButton9.Click += guna2GradientButton9_Click;
             // 
             // guna2GradientButton8
             // 
@@ -1061,7 +1042,7 @@
             guna2GradientButton8.ForeColor = Color.Gray;
             guna2GradientButton8.Image = (Image)resources.GetObject("guna2GradientButton8.Image");
             guna2GradientButton8.ImageAlign = HorizontalAlignment.Left;
-            guna2GradientButton8.Location = new Point(12, 374);
+            guna2GradientButton8.Location = new Point(12, 314);
             guna2GradientButton8.Name = "guna2GradientButton8";
             guna2GradientButton8.ShadowDecoration.CustomizableEdges = customizableEdges37;
             guna2GradientButton8.Size = new Size(159, 35);
@@ -1069,6 +1050,7 @@
             guna2GradientButton8.Text = "Conta";
             guna2GradientButton8.TextAlign = HorizontalAlignment.Left;
             guna2GradientButton8.UseTransparentBackground = true;
+            guna2GradientButton8.Click += guna2GradientButton8_Click;
             // 
             // guna2GradientButton7
             // 
@@ -1091,7 +1073,7 @@
             guna2GradientButton7.ForeColor = Color.Gray;
             guna2GradientButton7.Image = (Image)resources.GetObject("guna2GradientButton7.Image");
             guna2GradientButton7.ImageAlign = HorizontalAlignment.Left;
-            guna2GradientButton7.Location = new Point(12, 296);
+            guna2GradientButton7.Location = new Point(12, 236);
             guna2GradientButton7.Name = "guna2GradientButton7";
             guna2GradientButton7.ShadowDecoration.CustomizableEdges = customizableEdges39;
             guna2GradientButton7.Size = new Size(159, 35);
@@ -1099,6 +1081,7 @@
             guna2GradientButton7.Text = "Relatórios";
             guna2GradientButton7.TextAlign = HorizontalAlignment.Left;
             guna2GradientButton7.UseTransparentBackground = true;
+            guna2GradientButton7.Click += guna2GradientButton7_Click;
             // 
             // guna2GradientButton6
             // 
@@ -1122,7 +1105,7 @@
             guna2GradientButton6.ForeColor = Color.Gray;
             guna2GradientButton6.Image = (Image)resources.GetObject("guna2GradientButton6.Image");
             guna2GradientButton6.ImageAlign = HorizontalAlignment.Left;
-            guna2GradientButton6.Location = new Point(14, 255);
+            guna2GradientButton6.Location = new Point(14, 195);
             guna2GradientButton6.Name = "guna2GradientButton6";
             guna2GradientButton6.ShadowDecoration.CustomizableEdges = customizableEdges41;
             guna2GradientButton6.Size = new Size(157, 35);
@@ -1152,7 +1135,7 @@
             guna2GradientButton5.ForeColor = Color.Gray;
             guna2GradientButton5.Image = (Image)resources.GetObject("guna2GradientButton5.Image");
             guna2GradientButton5.ImageAlign = HorizontalAlignment.Left;
-            guna2GradientButton5.Location = new Point(12, 214);
+            guna2GradientButton5.Location = new Point(12, 154);
             guna2GradientButton5.Name = "guna2GradientButton5";
             guna2GradientButton5.ShadowDecoration.CustomizableEdges = customizableEdges43;
             guna2GradientButton5.Size = new Size(159, 35);
@@ -1160,6 +1143,7 @@
             guna2GradientButton5.Text = "Estoque";
             guna2GradientButton5.TextAlign = HorizontalAlignment.Left;
             guna2GradientButton5.UseTransparentBackground = true;
+            guna2GradientButton5.Click += guna2GradientButton5_Click;
             // 
             // guna2GradientButton4
             // 
@@ -1182,13 +1166,14 @@
             guna2GradientButton4.ForeColor = Color.Gray;
             guna2GradientButton4.Image = (Image)resources.GetObject("guna2GradientButton4.Image");
             guna2GradientButton4.ImageAlign = HorizontalAlignment.Left;
-            guna2GradientButton4.Location = new Point(12, 173);
+            guna2GradientButton4.Location = new Point(12, 113);
             guna2GradientButton4.Name = "guna2GradientButton4";
             guna2GradientButton4.ShadowDecoration.CustomizableEdges = customizableEdges45;
             guna2GradientButton4.Size = new Size(159, 35);
             guna2GradientButton4.TabIndex = 15;
             guna2GradientButton4.Text = "Monitoramento";
             guna2GradientButton4.TextAlign = HorizontalAlignment.Left;
+            guna2GradientButton4.Click += guna2GradientButton4_Click;
             // 
             // guna2GradientButton3
             // 
@@ -1211,7 +1196,7 @@
             guna2GradientButton3.ForeColor = Color.Gray;
             guna2GradientButton3.Image = (Image)resources.GetObject("guna2GradientButton3.Image");
             guna2GradientButton3.ImageAlign = HorizontalAlignment.Left;
-            guna2GradientButton3.Location = new Point(12, 132);
+            guna2GradientButton3.Location = new Point(12, 72);
             guna2GradientButton3.Name = "guna2GradientButton3";
             guna2GradientButton3.ShadowDecoration.CustomizableEdges = customizableEdges47;
             guna2GradientButton3.Size = new Size(159, 35);
@@ -1219,6 +1204,7 @@
             guna2GradientButton3.Text = "Cultivo";
             guna2GradientButton3.TextAlign = HorizontalAlignment.Left;
             guna2GradientButton3.UseTransparentBackground = true;
+            guna2GradientButton3.Click += guna2GradientButton3_Click;
             // 
             // guna2GradientButton1
             // 
@@ -1240,40 +1226,73 @@
             guna2GradientButton1.ForeColor = Color.Gray;
             guna2GradientButton1.Image = (Image)resources.GetObject("guna2GradientButton1.Image");
             guna2GradientButton1.ImageAlign = HorizontalAlignment.Left;
-            guna2GradientButton1.Location = new Point(12, 91);
+            guna2GradientButton1.Location = new Point(12, 31);
             guna2GradientButton1.Name = "guna2GradientButton1";
             guna2GradientButton1.ShadowDecoration.CustomizableEdges = customizableEdges49;
             guna2GradientButton1.Size = new Size(159, 35);
             guna2GradientButton1.TabIndex = 6;
             guna2GradientButton1.Text = "Dashboard";
             guna2GradientButton1.TextAlign = HorizontalAlignment.Left;
+            guna2GradientButton1.Click += guna2GradientButton1_Click;
             // 
             // guna2Separator3
             // 
-            guna2Separator3.Location = new Point(12, 75);
+            guna2Separator3.Location = new Point(12, 15);
             guna2Separator3.Name = "guna2Separator3";
             guna2Separator3.Size = new Size(149, 10);
             guna2Separator3.TabIndex = 7;
             // 
             // guna2Separator2
             // 
-            guna2Separator2.Location = new Point(12, 358);
+            guna2Separator2.Location = new Point(12, 298);
             guna2Separator2.Name = "guna2Separator2";
             guna2Separator2.Size = new Size(149, 10);
             guna2Separator2.TabIndex = 6;
             // 
             // guna2Separator1
             // 
-            guna2Separator1.Location = new Point(12, 476);
+            guna2Separator1.Location = new Point(12, 416);
             guna2Separator1.Name = "guna2Separator1";
             guna2Separator1.Size = new Size(149, 10);
             guna2Separator1.TabIndex = 0;
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.White;
+            panel1.Controls.Add(guna2HtmlLabel1);
+            panel1.Controls.Add(pictureBox15);
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(183, 69);
+            panel1.TabIndex = 41;
+            // 
+            // guna2HtmlLabel1
+            // 
+            guna2HtmlLabel1.AutoSize = false;
+            guna2HtmlLabel1.BackColor = Color.Transparent;
+            guna2HtmlLabel1.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            guna2HtmlLabel1.Location = new Point(80, 9);
+            guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            guna2HtmlLabel1.Size = new Size(80, 50);
+            guna2HtmlLabel1.TabIndex = 6;
+            guna2HtmlLabel1.Text = "Urban Green";
+            // 
+            // pictureBox15
+            // 
+            pictureBox15.Image = (Image)resources.GetObject("pictureBox15.Image");
+            pictureBox15.Location = new Point(23, 9);
+            pictureBox15.Name = "pictureBox15";
+            pictureBox15.Size = new Size(50, 50);
+            pictureBox15.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox15.TabIndex = 6;
+            pictureBox15.TabStop = false;
             // 
             // SaudeForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1264, 761);
+            Controls.Add(panel1);
             Controls.Add(panel2);
             Controls.Add(guna2GradientPanel1);
             Controls.Add(panel3);
@@ -1305,8 +1324,9 @@
             guna2CircleProgressBar1.ResumeLayout(false);
             guna2CircleProgressBar1.PerformLayout();
             panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
             panel2.ResumeLayout(false);
+            panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
             ResumeLayout(false);
         }
 
@@ -1365,8 +1385,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Panel panel3;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
-        private PictureBox pictureBox15;
         private Panel panel2;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton11;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton10;
@@ -1381,5 +1399,8 @@
         private Guna.UI2.WinForms.Guna2Separator guna2Separator3;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator2;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator1;
+        private Panel panel1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
+        private PictureBox pictureBox15;
     }
 }

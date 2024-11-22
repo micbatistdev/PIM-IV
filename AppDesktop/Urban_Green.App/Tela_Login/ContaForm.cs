@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace UrbanGreenProject
 {
-    public partial class ContatoForm : Form
+    public partial class ContaForm : Form
     {
-        public ContatoForm()
+        public ContaForm()
         {
             InitializeComponent();
         }
