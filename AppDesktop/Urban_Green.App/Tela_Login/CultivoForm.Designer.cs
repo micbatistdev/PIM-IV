@@ -80,6 +80,11 @@
             label1 = new Label();
             pictureBox2 = new PictureBox();
             guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
+            Column1 = new DataGridViewTextBoxColumn();
+            Column2 = new DataGridViewTextBoxColumn();
+            Column3 = new DataGridViewTextBoxColumn();
+            Column4 = new DataGridViewTextBoxColumn();
+            Column5 = new DataGridViewTextBoxColumn();
             panel27 = new Panel();
             label29 = new Label();
             guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
@@ -87,11 +92,6 @@
             pictureBox18 = new PictureBox();
             pictureBox17 = new PictureBox();
             BarraPesquisa = new Guna.UI2.WinForms.Guna2TextBox();
-            Column1 = new DataGridViewTextBoxColumn();
-            Column2 = new DataGridViewTextBoxColumn();
-            Column3 = new DataGridViewTextBoxColumn();
-            Column4 = new DataGridViewTextBoxColumn();
-            Column5 = new DataGridViewTextBoxColumn();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
             panel2.SuspendLayout();
@@ -583,6 +583,31 @@
             guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
             guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
             // 
+            // Column1
+            // 
+            Column1.HeaderText = "NOME DO CULTIVO";
+            Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            Column2.HeaderText = "TIPO DE PLANTA";
+            Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            Column3.HeaderText = "DATA DE PLANTIO";
+            Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            Column4.HeaderText = "DATA ESTIMADA DE COLHEITA";
+            Column4.Name = "Column4";
+            // 
+            // Column5
+            // 
+            Column5.HeaderText = "STATUS DO CULTIVO";
+            Column5.Name = "Column5";
+            // 
             // panel27
             // 
             panel27.BackColor = Color.White;
@@ -682,31 +707,6 @@
             BarraPesquisa.ShadowDecoration.CustomizableEdges = customizableEdges24;
             BarraPesquisa.Size = new Size(312, 36);
             BarraPesquisa.TabIndex = 0;
-            // 
-            // Column1
-            // 
-            Column1.HeaderText = "NOME DO CULTIVO";
-            Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            Column2.HeaderText = "TIPO DE PLANTA";
-            Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            Column3.HeaderText = "DATA DE PLANTIO";
-            Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            Column4.HeaderText = "DATA ESTIMADA DE COLHEITA";
-            Column4.Name = "Column4";
-            // 
-            // Column5
-            // 
-            Column5.HeaderText = "STATUS DO CULTIVO";
-            Column5.Name = "Column5";
             // 
             // CultivoForm
             // 
