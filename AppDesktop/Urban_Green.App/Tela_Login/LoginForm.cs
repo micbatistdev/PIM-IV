@@ -1,4 +1,5 @@
 using System;
+using System.Diagnostics;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
 using UrbanGreenProject;
@@ -12,6 +13,9 @@ namespace Tela_Login
         {
             InitializeComponent();
             this.Load += new EventHandler(Form1_Load);
+            // Configure o texto do LinkLabel
+            linkLabel6.Text = "www.urbangreen.com";
+            linkLabel6.Links.Add(0, linkLabel6.Text.Length, "https://stunning-valkyrie-262d36.netlify.app");
 
         }
         private void btnLogin_Click(object sender, EventArgs e)
@@ -168,6 +172,20 @@ namespace Tela_Login
             DashboardForm dashboardForm = new DashboardForm();
             dashboardForm.Show();
             this.Hide();
+        }
+
+        private void linkLabel6_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            // Abre o link no navegador padrão
+            string target = e.Link.LinkData as string;
+            if (!string.IsNullOrEmpty(target))
+            {
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = target,
+                    UseShellExecute = true // Necessário para abrir URLs no .NET Core/Framework mais recente
+                });
+            }
         }
     }
 }
